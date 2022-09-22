@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <link rel="styleSheet" type="text/css" href="styling.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <br><br><br><br><br>
+        <h1>Formulär</h1><br>
+        <div class="topNav">
+            <a href="webpage.html">Hem</a>
+            <a href="game.html">Spel</a>
+            <a href="quiz.html">Quiz</a>
+            <a class="active" href="#">Formulär</a>
+        </div>
+        <br><br>
+        <div class="form1">
+            <form name="form1" id="form1" action="#">
+                <br>
+                <label for="namn">Namn:</label><br>
+                <input type="text" name="namn" id="namn"><br><br>
+                <input type="button" name="skicka" value="Skicka" onclick="myFunction()" />
+                <br><br><br>
+            </form>
+            <p id="paragraph"></p>
+            <p id="paragraph2"></p>
+            <br><br><br>
+            <h2>Räkna</h2>
+            <form name="form2" id="form2" action="#">
+                <label for="från">Från:</label><br>
+                <input type="text" name="från" id="från"><br><br>
+                <label for="till">Till:</label><br>
+                <input type="text" name="till" id="till"><br><br>
+                <input type="button" name="skicka" value="Skicka" onclick="myFunction2()" />
+            </form>
+            <p id="paragraph3"></p>
+            <div id="counter"></div>
+            <script class="text/javascript" src="test.js"></script>
+        </div>
+    </body>
+</html>

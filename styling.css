@@ -1,0 +1,145 @@
+body{
+    background-image: url("sand.jpeg");
+    background-repeat:repeat-y;
+    background-size: cover;
+    background: url("sand.jpeg") repeat scroll 0 0 #292b26;
+}
+
+.paragraph{
+    font-size: larger;
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+    margin: auto;
+    padding: 10px;
+    color:aliceblue; 
+}
+
+p {
+    font-size: larger;
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+    margin: auto;
+    padding: 10px;
+    color:aliceblue; 
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    font-style: italic;
+    color:rgb(221, 221, 221);
+}
+
+h2{
+    font-size: 60px;
+    text-align: center;
+    font-style: italic;
+    color:rgb(221, 221, 221);
+}
+
+h3{
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+    color:rgb(221, 221, 221);
+}
+
+.topNav{
+    overflow: hidden;
+    text-align: center;
+    top: 0px;
+    /*margin: 5%;*/
+    left: 25%;
+   /* transform: (-50%);*/
+}
+
+.topNav a{
+    display: block;
+    color:aliceblue;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 50px;
+    font-size: 25px;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.topNav a:hover{
+	background-color:rgba(169, 169, 169, 0.397);
+    color: white;
+}
+
+.topNav a.active{
+	background-color:rgba(0, 0, 0, 0.603);
+    color: white;
+}
+
+.form1{
+    border-style:unset;
+    width: 50%;
+    right: 337px;
+    position: absolute;
+    background-color: rgb(169, 169, 169, 0.397);
+    text-align: center;
+}
+
+.form1 label{
+    color: white;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 300px;
+}
+
+.painting{
+    display: none;
+}
+
+#game{
+    width: 1330px;
+    height: 300px;
+    border: 1px solid aliceblue;
+}
+
+#you{
+    width: 40px;
+    height: 80px;
+    background-color: aliceblue;
+    position: relative;
+    top: 220px;
+}
+
+#block{
+    width: 20px;
+    height: 20px;
+    background-color: crimson;
+    position: relative;
+    left: 1310px;
+    top: 200px;
+    animation: block 1s infinite linear;
+}
+@keyframes block{
+    0%{left: 1330px}
+    100%{left: -20px}
+}
+
+@keyframes jump{
+    0%{top: 220px;}
+    30%{top: 100px;}
+    70%{top: 100px;}
+    100%{top: 220px;}
+}
+
+.animate{
+    animation: jump 0.3s linear;
+}
