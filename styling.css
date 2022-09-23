@@ -105,41 +105,33 @@ div.gallery img {
     display: none;
 }
 
-#game{
-    width: 1330px;
-    height: 300px;
-    border: 1px solid aliceblue;
+table, th, td{
+    border: solid aliceblue;
+    color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#you{
-    width: 40px;
-    height: 80px;
-    background-color: aliceblue;
-    position: relative;
-    top: 220px;
+html body header h1 {
+    color: rgb(240, 249, 255);
 }
 
-#block{
-    width: 20px;
-    height: 20px;
-    background-color: crimson;
-    position: relative;
-    left: 1310px;
-    top: 200px;
-    animation: block 1s infinite linear;
-}
-@keyframes block{
-    0%{left: 1330px}
-    100%{left: -20px}
+footer{
+    text-align: center;
 }
 
-@keyframes jump{
-    0%{top: 220px;}
-    30%{top: 100px;}
-    70%{top: 100px;}
-    100%{top: 220px;}
+footer a{
+    color: aqua;
 }
 
-.animate{
-    animation: jump 0.3s linear;
+section{
+    text-align: center;
+}
+
+.lista{
+    text-align: center;
+    color: aliceblue;
+}
+#paragraf{
+    color: aqua;
 }
